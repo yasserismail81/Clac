@@ -1,0 +1,79 @@
+#container {
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    width:fit-content;
+    align-items:center;
+    border-radius:10px;
+    padding:10px ;
+    text-align:center;
+    margin:2% auto
+    
+
+}
+.yasser::after{
+    content:"|";
+    animation-name:user;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    margin-bottom:30px;
+    
+
+    
+    color:rgb(245, 10, 10)}
+    @keyframes user{
+        0%{content:"Y|"}
+        10%{content:"YA|"}
+        20%{content:"YAS|"}
+        30%{content:"YASS|"}
+        40%{content:"YASSE|"}
+        50%{content:"YASSER|"}
+        60%{content:"YASSE|"}
+        70%{content:"YASS|"}
+        80%{content:"YAS|"}
+       90%{content:"YA|"}
+       100%{content:"Y|"}
+       
+
+    }
+  
+
+
+
+
+ #display {width: 90%;height:60px; 
+    background-color:#ddd;
+    font-size:30px;
+    border:px solid #fff;
+    border-radius:10px;
+    outline: 0;
+
+}
+
+  
+.calculator{
+    margin:10px;
+    padding:1px
+}
+.calculator .btn{
+    width:60px;
+    height:60px;
+    padding:20px auto;
+    font-size:20px;
+    margin:10px;
+    text-align:center;
+    border:none;
+    border-radius:10px;
+    font-size:35px
+
+
+}
+.calculator .btn:hover{
+    background-color:#ddd
+}
+input{
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom:10px;
+    margin-top:10px
+}
