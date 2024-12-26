@@ -58,6 +58,10 @@
     margin:10px;
     padding:1px
 }
+.del{
+    font-size:25px
+    !important
+}
 .calculator .btn{
     width:60px;
     height:60px;
@@ -141,8 +145,8 @@ input{
         padding:1px
     }
     .calculator .btn {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         padding: 20px auto;
         font-size: 20px;
         margin: 10px;
