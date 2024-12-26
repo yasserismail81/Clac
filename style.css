@@ -145,10 +145,10 @@ input{
         padding:1px
     }
     .calculator .btn {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         padding: 20px auto;
-        font-size: 20px;
+        font-size: 25px;
         margin: 10px;
         text-align: center;
         /* border: none; */
